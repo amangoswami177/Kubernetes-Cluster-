@@ -1,64 +1,49 @@
-# Kubernetes-Cluster-
-<head>
-    <title>Learning Kubernetes with Minikube</title>
-</head>
-<body>
-    <header>
-        <h1>Learning Kubernetes with Minikube</h1>
-    </header>
+<h1>Learning Kubernetes with Minikube</h1>
+<h2>Project Overview</h2>
 
-    <section>
-        <h2>Objective</h2>
-        <p>
-            The objective of this project is to learn how to deploy and manage applications
-            in Kubernetes locally using Minikube.
-        </p>
-    </section>
+<p>This project is designed to help you learn the basics of Kubernetes by setting up a local Kubernetes cluster using Minikube. It walks you through deploying and managing applications in Kubernetes, scaling them, exposing services, and troubleshooting.</p>
 
-    <section>
-        <h2>Tools Used</h2>
-        <ul>
-            <li><strong>Minikube:</strong> A tool for running Kubernetes clusters locally.</li>
-            <li><strong>kubectl:</strong> Kubernetes command-line tool to interact with the cluster.</li>
-            <li><strong>Docker:</strong> Used for containerizing applications.</li>
-        </ul>
-    </section>
+<h3>Objectives</h3>
+<p>By the end of this project, you will have learned:</p>
 
-    <section>
-        <h2>Steps to Set Up the Cluster</h2>
-        <ol>
-            <li><strong>Start Minikube Cluster:</strong> 
-                <p>Use the command <code>minikube start</code> to set up a local Kubernetes cluster.</p>
-            </li>
-            <li><strong>Create Deployment:</strong>
-                <p>Create a <code>deployment.yaml</code> file to define the deployment of the application.</p>
-            </li>
-            <li><strong>Expose the Application:</strong>
-                <p>Use a <code>service.yaml</code> file to expose the app to external access.</p>
-            </li>
-            <li><strong>Verify Pods and Services:</strong>
-                <p>Check the pods and services using the <code>kubectl get pods</code> and <code>kubectl get svc</code> commands.</p>
-            </li>
-            <li><strong>Scale the Deployment:</strong>
-                <p>Use the <code>kubectl scale</code> command to scale the deployment up or down.</p>
-            </li>
-            <li><strong>View Logs:</strong>
-                <p>Use the <code>kubectl describe pod</code> command to view the logs of the pods.</p>
-            </li>
-        </ol>
-    </section>
+<p>1. How to set up a local Kubernetes cluster using Minikube.</p>
 
-    <section>
-        <h2>Conclusion</h2>
-        <p>
-            This project provides hands-on experience with setting up a Kubernetes cluster locally,
-            deploying applications, managing services, and scaling deployments. It is a valuable
-            resource for anyone wanting to learn Kubernetes fundamentals.
-        </p>
-    </section>
+<P>2. How to deploy applications in Kubernetes using YAML files.</P>
 
-    <footer>
-        <p>Learn Kubernetes, Manage Containers, and Explore DevOps!</p>
-    </footer>
-</body>
-</html>
+<P>3. How to expose your application to external traffic using Kubernetes services.</P>
+
+<P>4. How to scale applications in Kubernetes.</P>
+
+<P>5. How to troubleshoot and view logs of deployed applications.</P>
+
+<h4>Tools Used</h4>
+<P>Minikube: A tool to run Kubernetes clusters locally.
+
+kubectl: The Kubernetes command-line tool to interact with the cluster.
+
+Docker: For containerizing the application.
+</P>
+<h5>Steps to Complete the Project</h5>
+
+<h6>Start Minikube:</h6>
+<P>
+    1. Run the command minikube start to set up a local Kubernetes cluster.
+    2. Create a Deployment:
+    3. Create a Deployment:
+    4. Define a Kubernetes deployment using a deployment.yaml file.
+    5. Expose the Application:
+    6. Expose the application using a service.yaml file to allow external traffic.
+    7. Verify the Deployment:
+    8. Use kubectl get pods to check that your app is deployed correctly.
+    9. Scale the Application:
+    10. Use the kubectl scale command to increase or decrease the number of pod replicas.
+</P>
+
+<h6>View Logs:</h6>
+
+
+<P>Use kubectl describe pod <pod-name> to check the logs and troubleshoot any issues.</P>
+
+<h7>Conclusion</h7>
+<P>This project provides a hands-on introduction to Kubernetes. You will understand the fundamental concepts of deploying, scaling, and managing applications in Kubernetes. It’s a great starting point if you want to explore Kubernetes in more depth and eventually work with more advanced topics like persistent storage and networking.</P>
+
